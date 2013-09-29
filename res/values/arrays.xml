@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="zones_array">
+        <item>Safe Zone</item>
+        <item>Risk Zone</item>
+        <item>Relevant Zone</item>
+        <item>Out-Of-Relevant Zone</item>
+    </string-array>
+    <string-array 
+        name="hoverinfo_algorithms_array">
+        <item>Broadcast</item>
+        <item>Broadcast with Pesudo Direction</item>
+    </string-array>
+</resources>

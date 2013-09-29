@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hovering Information App</string>
+    <string name="menu_settings">Settings</string>
+    <string name="empty_message_devices">Nessun Device Trovato</string>
+    <string name="empty_message_hoverinfos">Nessuna Connessione / Nessun Hovering Information Piece Trovato</string>
+    <string name="label_me">ME</string>
+    <string name="label_peers">PEERS</string>
+    <string name="label_hoverinfo_pieces">HOVERING INFORMATION PIECES</string>
+    <string name="info">Info: </string>
+    <string name="zone">Zona: SAFER</string>
+    <string name="enable_p2p_menuitem">P2P On/Off</string>
+    <string name="create_piece">Crea Nuova HoverInfo</string>
+    <string name="move">Simula Spostamento</string>
+    <string name="title_connection_fragment">Connessione</string>
+    <string name="title_hoverinfo_fragment">Hovering Information</string>
+    <string name="crea">Crea</string>
+
+</resources>

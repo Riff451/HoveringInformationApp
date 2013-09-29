@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:padding="6dip">
+
+    <ImageView 
+        android:id="@+id/image_evil_agent"
+        android:src="@drawable/ic_evil_agent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/hoverinfo_name"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/image_evil_agent" 
+        android:textAppearance="?android:attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/hoverinfo_payload"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/image_evil_agent"
+        android:layout_below="@id/hoverinfo_name"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall" />
+</RelativeLayout>
